@@ -337,4 +337,64 @@ display:flex;
 .nav-links li{
 margin:15px 0;
 }
+}/* ================= IMPROVED MOBILE DESIGN ================= */
+
+@media(max-width:768px){
+
+/* Reduce hero padding */
+.hero{
+padding:100px 6% 60px 6%;
+}
+
+/* Better heading sizes */
+.hero h1{
+font-size:38px;
+line-height:1.2;
+}
+
+.hero h3{
+font-size:18px;
+}
+
+.role{
+font-size:18px;
+}
+
+/* Improve paragraph readability */
+.hero p{
+font-size:15px;
+line-height:1.6;
+padding:0 5px;
+}
+
+/* Stack buttons properly */
+.hero-buttons{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:15px;
+margin-top:20px;
+}
+
+.btn{
+width:80%;
+text-align:center;
+margin:0;
+}
+
+/* Improve image spacing */
+.hero img{
+width:220px;
+margin-top:50px;
+}
+
+/* Navbar spacing */
+.navbar{
+padding:15px 6%;
+}
+
+.logo{
+font-size:20px;
+}
+
 }
